@@ -10,7 +10,16 @@ section {
 
 .sidebar {
   width: 30%;
+  margin-left: 1%;
+  margin-top: 1%;
 }
+
+.sidebar ul {
+  padding: 1%;
+  list-style: none;
+}
+
+
 
 .sidebar img {
   width: 10%;
@@ -22,7 +31,7 @@ section {
   padding: 2%;
   margin: 2%;
   border-radius: 5px;
-  width: 70%;
+  width: 50%;
   border-width: 1px;
 }
 
@@ -65,7 +74,7 @@ section {
 .chat-messages {
   flex-direction: inherit;
   padding: 5%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
   border: solid;
   border-width: thin;
 }
@@ -124,6 +133,8 @@ section {
 .chat-footer input {
   width: 95%;
   padding: 1%;
+  border-radius: 10px;
+  border-width: 1px;
 }
 
 .chat-footer button {
