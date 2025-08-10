@@ -41,6 +41,7 @@ section {
 .header {
   justify-content: space-between;
   border: solid;
+  border-width: thin;
 }
 
 .chat {
@@ -64,6 +65,7 @@ section {
   padding: 5%;
   background-color: rgb(255, 255, 255);
   border: solid;
+  border-width: thin;
 }
 
 .chat-header img {
@@ -109,6 +111,7 @@ section {
 
 .chat-footer {
   border: solid;
+  border-width: thin;
 }
 
 /* esta clase llamada "a" es el globo del mensaje recibido*/
