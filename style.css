@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 section {
@@ -24,6 +25,11 @@ section {
   border-radius: 5px;
   width: 70%;
   border-width: 1px;
+}
+
+.sidebar h5 {
+  font-size: 120%;
+
 }
 
 .contact-list {
