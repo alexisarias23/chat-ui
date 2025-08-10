@@ -38,11 +38,24 @@ section {
   display: flex;
 }
 
-
+.header {
+  justify-content: space-between;
+}
 
 .chat {
   width: 80%;
   flex-direction: column;
+}
+
+.chat-actions {
+  padding: 2%;
+}
+
+.chat-actions button {
+  margin-right: 5%;
+  border: none;
+  width: 50px;
+  background-color: white
 }
 
 .chat-messages {
@@ -57,24 +70,47 @@ section {
 
 .chat-header {
   display: flex;
+  align-items: center;
+}
+
+.chat-header p {
+  margin-left: 5%;
+}
+
+
+.chat-header h3 {
+  margin-left: 5%;
+}
+
+.chat-actions {
+  display: flex;
+  align-items: center;
+
 }
 
 .messages-sent {
   background-color: rgb(194, 217, 250);
-  width: 65%;
   border-radius: 5px;
   align-self: end;
   margin-bottom: 2%;
-
+  padding: 1%;
+  width: 35%;
 }
 
 .messages-received {
   background-color: rgb(236, 236, 236);
   border-radius: 5px;
   margin-bottom: 2%;
+  padding: 1%;
+  width: 40%;
+}
+
+/* esta clase llamada "a" es el globo del mensaje recibido*/
+.a {
+  width: 15%;
 }
 
 .timestamp {
-  color: rgb(199, 199, 199);
+  color: rgb(80, 80, 80);
   font-size: 10px;
 }
