@@ -9,7 +9,6 @@ section {
 }
 
 .sidebar {
-  background-color: aqua;
   width: 30%;
 }
 
@@ -29,12 +28,17 @@ section {
 
 .sidebar h5 {
   font-size: 120%;
+}
 
+.sidebar p {
+  color: rgb(78, 78, 78);
 }
 
 .contact-list {
   display: flex;
 }
+
+
 
 .chat {
   background-color: blueviolet;
