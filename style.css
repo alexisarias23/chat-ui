@@ -189,4 +189,26 @@ section {
     margin-left: auto;
   }
 
+  @media (max-width: 480px) {
+
+    .chat-footer button {
+      font-size: 15px;
+    }
+
+    .chat-footer input {
+      width: 90%;
+
+    }
+
+    .messages-sent {
+      width: 50%;
+    }
+
+    .messages-received {
+      width: 60%;
+    }
+
+  }
+
+
 }
