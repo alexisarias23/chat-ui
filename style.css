@@ -13,8 +13,9 @@ section {
 }
 
 .sidebar img {
-  width: 15%;
+  width: 10%;
   border-radius: 30px;
+  padding: 1%;
 }
 
 .sidebar input {}
