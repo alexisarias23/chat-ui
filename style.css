@@ -40,7 +40,8 @@ section {
 
 .header {
   justify-content: space-between;
-  border: solid;
+  border-left: solid;
+  border-right: solid;
   border-width: thin;
 }
 
@@ -110,7 +111,9 @@ section {
 }
 
 .chat-footer {
-  border: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
   border-width: thin;
 }
 
