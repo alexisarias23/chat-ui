@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  display: flex;
+}
+
+
+.sidebar {
+  background-color: aqua;
+  width: 30%;
+}
+
+.sidebar img {
+  width: 15%;
+  border-radius: 30px;
+}
+
+
+.contact-list {
+  display: flex;
+}
+
+.chat {
+  background-color: blueviolet;
+  width: 80%;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex-direction: inherit;
+  padding: 5%;
+}
+
+.chat-header img {
+  width: 15%;
+}
+
+.chat-header {
+  display: flex;
+}
+
+.messages-sent {
+  background-color: rgb(194, 217, 250);
+  width: 65%;
+  border-radius: 5px;
+  align-self: end;
+
+}
+
+.messages-received {
+  background-color: rgb(146, 146, 146);
+  border-radius: 5px;
+
+}
