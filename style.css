@@ -18,7 +18,13 @@ section {
   padding: 1%;
 }
 
-.sidebar input {}
+.sidebar input {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
+  width: 70%;
+  border-width: 1px;
+}
 
 .contact-list {
   display: flex;
