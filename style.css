@@ -41,7 +41,6 @@ section {
 
 
 .chat {
-  background-color: blueviolet;
   width: 80%;
   flex-direction: column;
 }
@@ -49,6 +48,7 @@ section {
 .chat-messages {
   flex-direction: inherit;
   padding: 5%;
+  background-color: rgb(255, 255, 255);
 }
 
 .chat-header img {
@@ -64,11 +64,17 @@ section {
   width: 65%;
   border-radius: 5px;
   align-self: end;
+  margin-bottom: 2%;
 
 }
 
 .messages-received {
-  background-color: rgb(146, 146, 146);
+  background-color: rgb(236, 236, 236);
   border-radius: 5px;
+  margin-bottom: 2%;
+}
 
+.timestamp {
+  color: rgb(199, 199, 199);
+  font-size: 10px;
 }
