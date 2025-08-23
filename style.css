@@ -9,7 +9,7 @@ section {
 }
 
 .sidebar {
-  width: 30%;
+  width: 25%;
   margin-left: 1%;
   margin-top: 1%;
 }
@@ -17,12 +17,13 @@ section {
 .sidebar ul {
   padding: 1%;
   list-style: none;
+  margin-top: revert;
 }
 
 
 
 .sidebar img {
-  width: 10%;
+  width: 15%;
   border-radius: 30px;
   padding: 1%;
 }
@@ -52,10 +53,11 @@ section {
   border-left: solid;
   border-right: solid;
   border-width: thin;
+  border-radius: 5px;
 }
 
 .chat {
-  width: 80%;
+  width: 150%;
   flex-direction: column;
 }
 
@@ -75,6 +77,7 @@ section {
   background-color: rgb(245, 245, 245);
   border: solid;
   border-width: thin;
+  border-radius: 5px;
 }
 
 .chat-header img {
@@ -125,6 +128,7 @@ section {
   border-bottom: solid;
   border-width: thin;
   padding: 1%;
+  border-radius: 5px;
 
 }
 
@@ -138,14 +142,15 @@ section {
 .chat-footer button {
   border: none;
   background-color: transparent;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
+  margin-left: auto;
 }
 
-/* esta clase llamada "a" es el globo del mensaje recibido*/
+/* esta clase llamada "a" es el globo del mensaje recibido
 .a {
   width: 15%;
-}
+}*/
 
 .timestamp {
   color: rgb(80, 80, 80);
@@ -189,26 +194,25 @@ section {
     margin-left: auto;
   }
 
-  @media (max-width: 480px) {
+}
 
-    .chat-footer button {
-      font-size: 15px;
-    }
+@media (max-width: 480px) {
 
-    .chat-footer input {
-      width: 90%;
+  .chat-footer button {
+    font-size: 15px;
+  }
 
-    }
-
-    .messages-sent {
-      width: 50%;
-    }
-
-    .messages-received {
-      width: 60%;
-    }
+  .chat-footer input {
+    width: 90%;
 
   }
 
+  .messages-sent {
+    width: 50%;
+  }
+
+  .messages-received {
+    width: 60%;
+  }
 
 }
