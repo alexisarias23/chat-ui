@@ -204,10 +204,14 @@ section {
     height: 100vh;
   }
 
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+  }
+
 
   .messages-received {
     margin-top: 100px;
-    margin-bottom: 55px;
   }
 
 
@@ -221,8 +225,14 @@ section {
 
 @media (max-width: 480px) {
 
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+  }
+
   .chat-footer button {
     font-size: 15px;
+    margin-left: 5px;
   }
 
   .chat-footer input {
@@ -236,6 +246,7 @@ section {
 
   .messages-received {
     width: 60%;
+    margin-bottom: 90px;
   }
 
 }
